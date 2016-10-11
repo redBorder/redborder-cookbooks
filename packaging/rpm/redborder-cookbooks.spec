@@ -1,0 +1,30 @@
+Name: redborder-cookbooks
+Version: %{__version}
+Release: %{__release}%{?dist}
+BuildArch: noarch
+Summary: Main package for redborder cookbooks
+
+License: AGPL 3.0
+URL: https://github.com/redBorder/redborder-cookbooks
+Source0: %{name}-%{version}.tar.gz
+
+Requires: cookbook-rb-manager
+
+%description
+%{summary}
+
+%prep
+%setup -qn %{name}-%{version}
+
+%build
+
+%install
+
+%files
+%defattr(0644,root,root)
+%doc LICENSE
+%doc README.md
+
+%changelog
+* Tue Oct 11 2016 Juan J. Prieto <jjprieto@redborder.com> - 0.1-1
+- first spec version
