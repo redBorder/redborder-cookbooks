@@ -8,7 +8,8 @@ License: AGPL 3.0
 URL: https://github.com/redBorder/redborder-cookbooks
 Source0: %{name}-%{version}.tar.gz
 
-Requires: cookbook-rb-manager
+Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid cookbook-http2k
+Requires: cookbook-cron cookbook-memcached cookbook-chef-server cookbook-consul
 
 %description
 %{summary}
@@ -26,5 +27,7 @@ Requires: cookbook-rb-manager
 %doc README.md
 
 %changelog
+* Tue Oct 18 2016 Juan J. Prieto <jjprieto@redborder.com> - 0.2-1
+- Added cookbooks required
 * Tue Oct 11 2016 Juan J. Prieto <jjprieto@redborder.com> - 0.1-1
 - first spec version
