@@ -9,7 +9,7 @@ URL: https://github.com/redBorder/redborder-cookbooks
 Source0: %{name}-%{version}.tar.gz
 
 Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid cookbook-http2k
-Requires: cookbook-cron cookbook-memcached cookbook-chef-server cookbook-consul
+Requires: cookbook-cron cookbook-memcached cookbook-chef-server cookbook-consul cookbook-hadoop
 
 %description
 %{summary}
