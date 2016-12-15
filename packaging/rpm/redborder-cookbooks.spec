@@ -10,7 +10,7 @@ Source0: %{name}-%{version}.tar.gz
 
 Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid cookbook-http2k
 Requires: cookbook-cron cookbook-memcached cookbook-chef-server cookbook-consul cookbook-hadoop
-Requires: cookbook-nginx cookbook-samza cookbook-geoip
+Requires: cookbook-nginx cookbook-samza cookbook-geoip cookbook-webui
 
 %description
 %{summary}
@@ -28,6 +28,8 @@ Requires: cookbook-nginx cookbook-samza cookbook-geoip
 %doc README.md
 
 %changelog
+* Thu Dec 15 2016 Carlos J. Mateos <cjmateos@redborder.com> - 0.5-1
+- Added cookbooks webui
 * Fri Dec 02 2016 Carlos J. Mateos <cjmateos@redborder.com> - 0.4-1
 - Added cookbooks samza and geoip
 * Thu Nov 17 2016 Juan J. Prieto <jjprieto@redborder.com> - 0.3-1
