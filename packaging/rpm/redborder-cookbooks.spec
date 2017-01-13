@@ -11,7 +11,7 @@ Source0: %{name}-%{version}.tar.gz
 Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid cookbook-http2k
 Requires: cookbook-cron cookbook-memcached cookbook-chef-server cookbook-consul cookbook-hadoop
 Requires: cookbook-nginx cookbook-samza cookbook-geoip cookbook-webui
-Requires: cookbook-snmp cookbook-rb-monitor
+Requires: cookbook-snmp cookbook-rb-monitor cookbook-ntp
 
 %description
 %{summary}
@@ -29,6 +29,8 @@ Requires: cookbook-snmp cookbook-rb-monitor
 %doc README.md
 
 %changelog
+* Fri Jan 13 2017 Carlos J. Mateos <cjmateos@redborder.com> - 0.7-1
+- Added ntp cookbooks
 * Wed Dec 21 2016 Alberto Rodriguez <arodriguez@redborder.com> - 0.6-1
 - Added snmp and redborder-monitor cookbooks
 * Thu Dec 15 2016 Carlos J. Mateos <cjmateos@redborder.com> - 0.5-1
