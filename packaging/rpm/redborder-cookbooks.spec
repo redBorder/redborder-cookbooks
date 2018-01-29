@@ -10,7 +10,7 @@ Source0: %{name}-%{version}.tar.gz
 
 Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid cookbook-http2k
 Requires: cookbook-cron cookbook-memcached cookbook-chef-server cookbook-consul cookbook-hadoop
-Requires: cookbook-nginx cookbook-samza cookbook-geoip cookbook-webui
+Requires: cookbook-nginx cookbook-samza cookbook-geoip cookbook-webui cookbook-logstash
 Requires: cookbook-snmp cookbook-rb-monitor cookbook-ntp cookbook-f2k
 
 %description
@@ -29,6 +29,8 @@ Requires: cookbook-snmp cookbook-rb-monitor cookbook-ntp cookbook-f2k
 %doc README.md
 
 %changelog
+* Mon Jan 29 2018 Juan J. Prieto <jjprieto@redborder.com> - 0.9-1
+- Add logstash cookbook
 * Fri Jan 20 2017 Carlos J. Mateos <cjmateos@redborder.com> - 0.8-1
 - Added f2k cookbooks
 * Fri Jan 13 2017 Carlos J. Mateos <cjmateos@redborder.com> - 0.7-1
