@@ -12,7 +12,7 @@ Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid c
 Requires: cookbook-cron cookbook-memcached cookbook-chef-server cookbook-consul cookbook-hadoop
 Requires: cookbook-nginx cookbook-samza cookbook-geoip cookbook-webui cookbook-logstash
 Requires: cookbook-snmp cookbook-rb-monitor cookbook-ntp cookbook-f2k cookbook-postgresql
-Requires: cookbook-minio
+Requires: cookbook-minio cookbook-pmacct
 
 %description
 %{summary}
@@ -30,6 +30,8 @@ Requires: cookbook-minio
 %doc README.md
 
 %changelog
+* Fri Feb 9 2018 Juan J. Prieto <jjprieto@redborder.com> - 0.11-1
+- Add pmacct cookbook
 * Wed Jan 31 2018 Alberto Rodriguez <arodriguez@redborder.com> - 0.10-1
 - Add minio cookbook
 * Mon Jan 29 2018 Juan J. Prieto <jjprieto@redborder.com> - 0.9-1
