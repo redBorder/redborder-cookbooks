@@ -13,6 +13,7 @@ Requires: cookbook-memcached cookbook-chef-server cookbook-consul cookbook-hadoo
 Requires: cookbook-nginx cookbook-samza cookbook-geoip cookbook-webui cookbook-logstash
 Requires: cookbook-snmp cookbook-rb-monitor cookbook-ntp cookbook-f2k cookbook-postgresql
 Requires: cookbook-minio cookbook-pmacct
+Requires: cookbook-dswatcher cookbook-events-counter
 
 %description
 %{summary}
