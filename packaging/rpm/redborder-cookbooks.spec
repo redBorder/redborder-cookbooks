@@ -15,6 +15,7 @@ Requires: cookbook-snmp cookbook-rb-monitor cookbook-ntp cookbook-f2k cookbook-p
 Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-dswatcher cookbook-events-counter
 Requires: cookbook-iptables cookbook-rsyslog
+Requires: cookbook-rb-social
 
 %description
 %{summary}
@@ -32,6 +33,8 @@ Requires: cookbook-iptables cookbook-rsyslog
 %doc README.md
 
 %changelog
+* Thu Dec 2 2021 Vicente Mesa <vimesa@redborder.com> - 0.11-1
+- Add rb-social cookbook
 * Fri Feb 9 2018 Juan J. Prieto <jjprieto@redborder.com> - 0.11-1
 - Add pmacct cookbook
 * Wed Jan 31 2018 Alberto Rodriguez <arodriguez@redborder.com> - 0.10-1
