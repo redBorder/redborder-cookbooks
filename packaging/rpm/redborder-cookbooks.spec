@@ -14,7 +14,7 @@ Requires: cookbook-nginx cookbook-samza cookbook-geoip cookbook-webui cookbook-l
 Requires: cookbook-snmp cookbook-rb-monitor cookbook-ntp cookbook-f2k cookbook-postgresql
 Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-dswatcher cookbook-events-counter
-Requires: cookbook-iptables cookbook-rsyslog
+Requires: cookbook-rsyslog
 Requires: cookbook-rb-social
 
 %description
