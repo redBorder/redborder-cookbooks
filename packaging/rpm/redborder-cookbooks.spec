@@ -12,6 +12,7 @@ Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid c
 Requires: cookbook-memcached cookbook-chef-server cookbook-consul cookbook-hadoop
 Requires: cookbook-nginx cookbook-samza cookbook-geoip cookbook-webui cookbook-logstash
 Requires: cookbook-snmp cookbook-rb-monitor cookbook-ntp cookbook-f2k cookbook-postgresql
+Requires: cookbook-mongodb cookbook-rb-scanner
 Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-dswatcher cookbook-events-counter
 Requires: cookbook-rsyslog
@@ -33,6 +34,8 @@ Requires: cookbook-rb-social
 %doc README.md
 
 %changelog
+* Mon Dec 13 2021 Javier Rodriguez <javiercrg@redborder.com> - 0.12-1
+- Add rb-social cookbook
 * Thu Dec 2 2021 Vicente Mesa <vimesa@redborder.com> - 0.11-1
 - Add rb-social cookbook
 * Fri Feb 9 2018 Juan J. Prieto <jjprieto@redborder.com> - 0.11-1
