@@ -35,7 +35,7 @@ Requires: cookbook-rb-social
 
 %changelog
 * Mon Dec 13 2021 Javier Rodriguez <javiercrg@redborder.com> - 0.12-1
-- Add rb-social cookbook
+- Added rb-scanner & mongodb cookbooks
 * Thu Dec 2 2021 Vicente Mesa <vimesa@redborder.com> - 0.11-1
 - Add rb-social cookbook
 * Fri Feb 9 2018 Juan J. Prieto <jjprieto@redborder.com> - 0.11-1
