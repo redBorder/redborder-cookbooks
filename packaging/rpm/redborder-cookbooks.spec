@@ -16,7 +16,7 @@ Requires: cookbook-mongodb cookbook-rb-scanner
 Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-dswatcher cookbook-events-counter
 Requires: cookbook-rsyslog
-Requires: cookbook-rb-social
+Requires: cookbook-rb-social cookbook-rb-nmsp
 
 %description
 %{summary}
@@ -34,6 +34,8 @@ Requires: cookbook-rb-social
 %doc README.md
 
 %changelog
+* Fri Dec 17 2021 Eduardo Reyes <eareyes@redborder.com> - 0.12-1
+- Added rb-nmsp cookbook
 * Mon Dec 13 2021 Javier Rodriguez <javiercrg@redborder.com> - 0.12-1
 - Added rb-scanner & mongodb cookbooks
 * Thu Dec 2 2021 Vicente Mesa <vimesa@redborder.com> - 0.11-1
