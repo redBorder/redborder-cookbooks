@@ -17,6 +17,7 @@ Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-dswatcher cookbook-events-counter
 Requires: cookbook-rsyslog
 Requires: cookbook-rb-social cookbook-rb-nmsp
+Requires: cookbook-freeradius
 
 %description
 %{summary}
@@ -34,6 +35,8 @@ Requires: cookbook-rb-social cookbook-rb-nmsp
 %doc README.md
 
 %changelog
+* Mon Jan 17 2022 Vicente Mesa <vimesa@redborder.com> - 0.12-1
+- Added rb-nmsp cookbook
 * Fri Dec 17 2021 Eduardo Reyes <eareyes@redborder.com> - 0.12-1
 - Added rb-nmsp cookbook
 * Mon Dec 13 2021 Javier Rodriguez <javiercrg@redborder.com> - 0.12-1
