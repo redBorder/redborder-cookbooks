@@ -16,7 +16,7 @@ Requires: cookbook-mongodb cookbook-rb-scanner
 Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-dswatcher cookbook-events-counter
 Requires: cookbook-rsyslog
-Requires: cookbook-rb-social cookbook-rb-nmsp
+Requires: cookbook-rb-social cookbook-rb-nmsp cookbook-n2klocd
 
 %description
 %{summary}
