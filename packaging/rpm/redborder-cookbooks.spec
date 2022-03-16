@@ -15,7 +15,7 @@ Requires: cookbook-snmp cookbook-rb-monitor cookbook-ntp cookbook-f2k cookbook-p
 Requires: cookbook-mongodb cookbook-rb-scanner
 Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-rb-dswatcher cookbook-rb-events-counter
-Requires: cookbook-rsyslog
+Requires: cookbook-rsyslog cookbook-rb-cep
 Requires: cookbook-rb-social cookbook-rb-nmsp cookbook-n2klocd cookbook-rb-ale
 Requires: cookbook-freeradius
 
@@ -35,6 +35,8 @@ Requires: cookbook-freeradius
 %doc README.md
 
 %changelog
+* Wed Feb 16 2022 Javier Rodriguez <javiercrg@redborder.com> - 0.12-1
+- Added rb-nmsp cookbook
 * Mon Jan 17 2022 Vicente Mesa <vimesa@redborder.com> - 0.12-1
 - Added rb-nmsp cookbook
 * Tue Dec 28 2021 Eduardo Reyes <eareyes@redborder.com> - 0.12-1
