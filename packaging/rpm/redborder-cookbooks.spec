@@ -36,7 +36,7 @@ Requires: cookbook-rb-proxy
 %doc README.md
 
 %changelog
-* Wed Mar 23 2022 Miguel Negron <manegrong@redborder.com> - 0.23
+* Wed Mar 23 2022 Miguel Negron <manegrong@redborder.com> - 0.24
 - Added rb-proxy cookbook
 * Wed Feb 16 2022 Javier Rodriguez <javiercrg@redborder.com> - 0.12-1
 - Added rb-nmsp cookbook
