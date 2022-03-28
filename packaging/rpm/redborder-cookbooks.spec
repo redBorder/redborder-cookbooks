@@ -19,6 +19,7 @@ Requires: cookbook-rsyslog cookbook-rb-cep
 Requires: cookbook-rb-social cookbook-rb-nmsp cookbook-n2klocd cookbook-rb-ale
 Requires: cookbook-freeradius
 Requires: cookbook-rb-proxy
+Requires: cookbook-k2http
 
 %description
 %{summary}
