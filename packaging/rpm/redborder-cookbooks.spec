@@ -21,6 +21,7 @@ Requires: cookbook-freeradius
 Requires: cookbook-rb-proxy
 Requires: cookbook-k2http
 Requires: cookbook-rb-ips cookbook-snort cookbook-barnyard2
+Requires: cookbook-ohai
 
 %description
 %{summary}
