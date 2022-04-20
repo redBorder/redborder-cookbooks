@@ -22,6 +22,7 @@ Requires: cookbook-rb-proxy
 Requires: cookbook-k2http
 Requires: cookbook-rb-ips cookbook-snort cookbook-barnyard2
 Requires: cookbook-ohai
+Requires: cookbook-cron
 
 %description
 %{summary}
@@ -39,6 +40,8 @@ Requires: cookbook-ohai
 %doc README.md
 
 %changelog
+* Tue Apr 19 2022 Eduardo Reyes <eareyes@redborder.com> - 1.0.2
+- Added cron cookbook
 * Wed Mar 23 2022 Miguel Negron <manegrong@redborder.com> - 0.24
 - Added rb-proxy cookbook
 * Wed Feb 16 2022 Javier Rodriguez <javiercrg@redborder.com> - 0.12-1
