@@ -11,7 +11,7 @@ Source0: %{name}-%{version}.tar.gz
 Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid cookbook-http2k
 Requires: cookbook-memcached cookbook-chef-server cookbook-consul cookbook-hadoop
 Requires: cookbook-nginx cookbook-samza cookbook-geoip cookbook-webui cookbook-logstash
-Requires: cookbook-snmp cookbook-rb-monitor cookbook-ntp cookbook-f2k cookbook-postgresql
+Requires: cookbook-snmp cookbook-rb-monitor cookbook-f2k cookbook-postgresql
 Requires: cookbook-mongodb cookbook-rb-scanner
 Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-rb-dswatcher cookbook-rb-events-counter
@@ -40,6 +40,8 @@ Requires: cookbook-cron
 %doc README.md
 
 %changelog
+* Fri Sep 22 2022 Miguel Negrón <manegron@redborder.com> - 2.0.0
+- Remove ntp
 * Tue Apr 19 2022 Eduardo Reyes <eareyes@redborder.com> - 1.0.2
 - Added cron cookbook
 * Wed Mar 23 2022 Miguel Negron <manegrong@redborder.com> - 0.24
