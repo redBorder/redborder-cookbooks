@@ -23,6 +23,7 @@ Requires: cookbook-k2http
 Requires: cookbook-rb-ips cookbook-snort cookbook-barnyard2
 Requires: cookbook-ohai
 Requires: cookbook-cron
+Requires: cookbook-rb-aioutliers
 
 %description
 %{summary}
@@ -40,9 +41,11 @@ Requires: cookbook-cron
 %doc README.md
 
 %changelog
-* Tue Apr 19 2022 Eduardo Reyes <eareyes@redborder.com> - 1.0.2
+* Wed Sep 27 2023 Miguel Álvarez <malvarez@redborder.com> - 1.0.3-1
+- Added rbaioutliers cookbook
+* Tue Apr 19 2022 Eduardo Reyes <eareyes@redborder.com> - 1.0.2-1
 - Added cron cookbook
-* Wed Mar 23 2022 Miguel Negron <manegrong@redborder.com> - 0.24
+* Wed Mar 23 2022 Miguel Negron <manegrong@redborder.com> - 0.24-1
 - Added rb-proxy cookbook
 * Wed Feb 16 2022 Javier Rodriguez <javiercrg@redborder.com> - 0.12-1
 - Added rb-nmsp cookbook
