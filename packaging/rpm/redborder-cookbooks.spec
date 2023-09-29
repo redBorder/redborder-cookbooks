@@ -41,8 +41,6 @@ Requires: cookbook-rb-aioutliers
 %doc README.md
 
 %changelog
-* Fri Sep 22 2022 Miguel Negrón <manegron@redborder.com> - 2.0.0
-- Remove ntp
 * Wed Sep 27 2023 Miguel Álvarez <malvarez@redborder.com> - 1.0.3-1
 - Added rbaioutliers cookbook
 * Tue Apr 19 2022 Eduardo Reyes <eareyes@redborder.com> - 1.0.2-1
