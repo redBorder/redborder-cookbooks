@@ -24,6 +24,7 @@ Requires: cookbook-rb-ips cookbook-snort cookbook-barnyard2
 #Requires: cookbook-ohai
 Requires: cookbook-cron
 Requires: cookbook-rb-aioutliers
+Requires: cookbook-rb-cgroup
 
 %description
 %{summary}
