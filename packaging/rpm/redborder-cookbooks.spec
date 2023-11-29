@@ -42,6 +42,8 @@ Requires: cookbook-rb-cgroup
 %doc README.md
 
 %changelog
+* Wed Nov 29 2023 Miguel Álvarez <malvarez@redborder.com> - 1.0.4-1
+- Add cgroup
 * Wed Sep 27 2023 Miguel Álvarez <malvarez@redborder.com> - 1.0.3-1
 - Added rbaioutliers cookbook
 * Tue Apr 19 2022 Eduardo Reyes <eareyes@redborder.com> - 1.0.2-1
