@@ -43,6 +43,8 @@ Requires: cookbook-rb-cgroup
 %doc README.md
 
 %changelog
+* Fri Dec 01 2023 David Vanhoucke <dvanhoucke@redborder.com> - 1.0.5-1
+- Add selinux
 * Wed Nov 29 2023 Miguel Álvarez <malvarez@redborder.com> - 1.0.4-1
 - Add cgroup
 * Wed Sep 27 2023 Miguel Álvarez <malvarez@redborder.com> - 1.0.3-1
