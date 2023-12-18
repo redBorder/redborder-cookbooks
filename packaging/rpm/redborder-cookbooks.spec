@@ -44,6 +44,8 @@ Requires: cookbook-rb-logstatter
 %doc README.md
 
 %changelog
+* Mon Dec 18 2023 Miguel Álvarez <malvarez@redborder.com> - 1.0.6-1
+- Add rb-logstatter
 * Fri Dec 01 2023 David Vanhoucke <dvanhoucke@redborder.com> - 1.0.5-1
 - Add selinux
 * Wed Nov 29 2023 Miguel Álvarez <malvarez@redborder.com> - 1.0.4-1
