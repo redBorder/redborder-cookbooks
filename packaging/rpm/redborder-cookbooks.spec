@@ -45,6 +45,8 @@ Requires: cookbook-rb-arubacentral
 %doc README.md
 
 %changelog
+* Fri Jan 19 2023 David Vanhoucke <dvanhoucke@redborder.com> - 1.0.7-1
+- Add rb-arubacentral
 * Mon Dec 18 2023 Miguel Álvarez <malvarez@redborder.com> - 1.0.6-1
 - Add rb-logstatter
 * Fri Dec 01 2023 David Vanhoucke <dvanhoucke@redborder.com> - 1.0.5-1
