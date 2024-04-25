@@ -28,6 +28,7 @@ Requires: cookbook-rb-selinux
 Requires: cookbook-rb-cgroup
 Requires: cookbook-rb-logstatter
 Requires: cookbook-rb-arubacentral
+Requires: cookbook-rb-exporter
 
 %description
 %{summary}
