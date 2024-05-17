@@ -29,6 +29,7 @@ Requires: cookbook-rb-cgroup
 Requires: cookbook-rb-logstatter
 Requires: cookbook-rb-arubacentral
 Requires: cookbook-rb-exporter
+Requires: cookbook-rb-postfix
 
 %description
 %{summary}
