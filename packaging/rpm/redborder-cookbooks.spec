@@ -30,6 +30,7 @@ Requires: cookbook-rb-logstatter
 Requires: cookbook-rb-arubacentral
 Requires: cookbook-rb-exporter
 Requires: cookbook-rb-postfix
+Requires: cookbook-rb-common
 
 %description
 %{summary}
@@ -47,6 +48,8 @@ Requires: cookbook-rb-postfix
 %doc README.md
 
 %changelog
+* Thu May 21 2024 Miguel Negrón <manegron@redborder.com>
+- Add rb-common
 * Mon May 20 2024 David Vanhoucke <dvanhoucke@redborder.com> - 1.1.0-1
 - Add rb-postfix
 * Fri Jan 19 2023 David Vanhoucke <dvanhoucke@redborder.com> - 1.0.7-1
