@@ -31,6 +31,7 @@ Requires: cookbook-rb-arubacentral
 Requires: cookbook-rb-exporter
 Requires: cookbook-rb-postfix
 Requires: cookbook-rb-common
+Requires: cookbook-keepalived
 
 %description
 %{summary}
