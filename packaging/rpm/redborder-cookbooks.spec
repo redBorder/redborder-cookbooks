@@ -49,6 +49,8 @@ Requires: cookbook-keepalived
 %doc README.md
 
 %changelog
+* Mon Jun 10 2024 David Vanhoucke <dvanhoucke@redborder.com>
+- Add keepalived
 * Thu May 21 2024 Miguel Negrón <manegron@redborder.com>
 - Add rb-common
 * Mon May 20 2024 David Vanhoucke <dvanhoucke@redborder.com> - 1.1.0-1
