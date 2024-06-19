@@ -32,6 +32,7 @@ Requires: cookbook-rb-exporter
 Requires: cookbook-rb-postfix
 Requires: cookbook-rb-common
 Requires: cookbook-keepalived
+Requires: cookbook-rb-clamav
 
 %description
 %{summary}
@@ -49,6 +50,8 @@ Requires: cookbook-keepalived
 %doc README.md
 
 %changelog
+* Tue Jun 18 2024 Miguel Álvarez <malvarez@redborder.com>
+- Add clamav
 * Mon Jun 10 2024 David Vanhoucke <dvanhoucke@redborder.com>
 - Add keepalived
 * Thu May 21 2024 Miguel Negrón <manegron@redborder.com>
