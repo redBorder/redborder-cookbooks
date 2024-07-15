@@ -33,6 +33,7 @@ Requires: cookbook-rb-postfix
 Requires: cookbook-rb-common
 Requires: cookbook-keepalived
 Requires: cookbook-rb-clamav
+Requires: cookbook-rb-chrony
 
 %description
 %{summary}
