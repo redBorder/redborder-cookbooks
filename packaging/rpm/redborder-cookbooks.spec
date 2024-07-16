@@ -33,6 +33,7 @@ Requires: cookbook-rb-postfix
 Requires: cookbook-rb-common
 Requires: cookbook-keepalived
 Requires: cookbook-rb-clamav
+Requires: cookbook-mem2incident
 
 %description
 %{summary}
@@ -50,6 +51,8 @@ Requires: cookbook-rb-clamav
 %doc README.md
 
 %changelog
+* Tue Jul 16 2024 Miguel Negrón <manegron@redborder.com>
+- Add mem2incident
 * Tue Jun 18 2024 Miguel Álvarez <malvarez@redborder.com>
 - Add clamav
 * Mon Jun 10 2024 David Vanhoucke <dvanhoucke@redborder.com>
