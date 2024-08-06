@@ -45,6 +45,18 @@ Requires: cookbook-mem2incident
 
 %install
 
+%post
+case "$1" in
+  1)
+    # This is an initial install.
+    :
+  ;;
+  2)
+    # run the rb_upload_cookbooks script to avoid conflicts
+    su - -s /bin/bash -c 'touch /root/.upload-cookbooks'
+  ;;
+esac
+
 %files
 %defattr(0644,root,root)
 %doc LICENSE
