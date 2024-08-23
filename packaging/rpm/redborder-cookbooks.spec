@@ -34,6 +34,8 @@ Requires: cookbook-rb-common
 Requires: cookbook-keepalived
 Requires: cookbook-rb-clamav
 Requires: cookbook-rb-chrony
+Requires: cookbook-mem2incident
+Requires: cookbook-rb-ai
 
 %description
 %{summary}
@@ -45,12 +47,28 @@ Requires: cookbook-rb-chrony
 
 %install
 
+%post
+case "$1" in
+  1)
+    # This is an initial install.
+    :
+  ;;
+  2)
+    # run the rb_upload_cookbooks script to avoid conflicts
+    su - -s /bin/bash -c 'touch /root/.upload-cookbooks'
+  ;;
+esac
+
 %files
 %defattr(0644,root,root)
 %doc LICENSE
 %doc README.md
 
 %changelog
+* Wed Jul 24 2024 Pablo Pérez <pperez@redborder.com>
+- Add rb-ai
+* Tue Jul 16 2024 Miguel Negrón <manegron@redborder.com>
+- Add mem2incident
 * Tue Jun 18 2024 Miguel Álvarez <malvarez@redborder.com>
 - Add clamav
 * Mon Jun 10 2024 David Vanhoucke <dvanhoucke@redborder.com>
