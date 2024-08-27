@@ -65,6 +65,8 @@ esac
 %doc README.md
 
 %changelog
+* Tue Aug 27 2024 Miguel Álvarez <malvarez@redborder.com>
+- Add chrony
 * Wed Jul 24 2024 Pablo Pérez <pperez@redborder.com>
 - Add rb-ai
 * Tue Jul 16 2024 Miguel Negrón <manegron@redborder.com>
