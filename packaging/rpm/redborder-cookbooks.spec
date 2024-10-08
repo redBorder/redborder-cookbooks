@@ -36,6 +36,7 @@ Requires: cookbook-rb-clamav
 Requires: cookbook-rb-chrony
 Requires: cookbook-mem2incident
 Requires: cookbook-rb-ai
+Requires: cookbook-rb-firewall
 
 %description
 %{summary}
@@ -65,6 +66,8 @@ esac
 %doc README.md
 
 %changelog
+* Tue Oct 08 2024 Nils Verschaeve <nverschaeve@redborder.com>
+- Add firewall
 * Tue Aug 27 2024 Miguel Álvarez <malvarez@redborder.com>
 - Add chrony
 * Wed Jul 24 2024 Pablo Pérez <pperez@redborder.com>
