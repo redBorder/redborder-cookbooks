@@ -9,8 +9,8 @@ URL: https://github.com/redBorder/redborder-cookbooks
 Source0: %{name}-%{version}.tar.gz
 
 Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid cookbook-http2k
-Requires: cookbook-memcached cookbook-chef-server cookbook-consul cookbook-hadoop
-Requires: cookbook-nginx cookbook-samza cookbook-geoip cookbook-webui cookbook-logstash
+Requires: cookbook-memcached cookbook-chef-server cookbook-consul
+Requires: cookbook-nginx cookbook-geoip cookbook-webui cookbook-logstash
 Requires: cookbook-snmp cookbook-rb-monitor cookbook-f2k cookbook-postgresql
 Requires: cookbook-mongodb cookbook-rb-scanner
 Requires: cookbook-minio cookbook-pmacct
@@ -65,65 +65,98 @@ esac
 %doc README.md
 
 %changelog
+* Fri Oct 11 2024 Miguel Negrón <manegron@redborder.com>
+- Remove hadoop and samza
+
 * Tue Aug 27 2024 Miguel Álvarez <malvarez@redborder.com>
 - Add chrony
+
 * Wed Jul 24 2024 Pablo Pérez <pperez@redborder.com>
 - Add rb-ai
+
 * Tue Jul 16 2024 Miguel Negrón <manegron@redborder.com>
 - Add mem2incident
+
 * Tue Jun 18 2024 Miguel Álvarez <malvarez@redborder.com>
 - Add clamav
+
 * Mon Jun 10 2024 David Vanhoucke <dvanhoucke@redborder.com>
 - Add keepalived
+
 * Thu May 21 2024 Miguel Negrón <manegron@redborder.com>
 - Add rb-common
-* Mon May 20 2024 David Vanhoucke <dvanhoucke@redborder.com> - 1.1.0-1
+
+* Mon May 20 2024 David Vanhoucke <dvanhoucke@redborder.com>
 - Add rb-postfix
-* Fri Jan 19 2023 David Vanhoucke <dvanhoucke@redborder.com> - 1.0.7-1
+
+* Fri Jan 19 2023 David Vanhoucke <dvanhoucke@redborder.com>
 - Add rb-arubacentral
-* Mon Dec 18 2023 Miguel Álvarez <malvarez@redborder.com> - 1.0.6-1
+
+* Mon Dec 18 2023 Miguel Álvarez <malvarez@redborder.com>
 - Add rb-logstatter
-* Fri Dec 01 2023 David Vanhoucke <dvanhoucke@redborder.com> - 1.0.5-1
+
+* Fri Dec 01 2023 David Vanhoucke <dvanhoucke@redborder.com>
 - Add selinux
-* Wed Nov 29 2023 Miguel Álvarez <malvarez@redborder.com> - 1.0.4-1
+
+* Wed Nov 29 2023 Miguel Álvarez <malvarez@redborder.com>
 - Add cgroup
-* Wed Sep 27 2023 Miguel Álvarez <malvarez@redborder.com> - 1.0.3-1
+
+* Wed Sep 27 2023 Miguel Álvarez <malvarez@redborder.com>
 - Added rbaioutliers cookbook
-* Tue Apr 19 2022 Eduardo Reyes <eareyes@redborder.com> - 1.0.2-1
+
+* Tue Apr 19 2022 Eduardo Reyes <eareyes@redborder.com>
 - Added cron cookbook
-* Wed Mar 23 2022 Miguel Negron <manegrong@redborder.com> - 0.24-1
+
+* Wed Mar 23 2022 Miguel Negron <manegrong@redborder.com>
 - Added rb-proxy cookbook
-* Wed Feb 16 2022 Javier Rodriguez <javiercrg@redborder.com> - 0.12-1
+
+* Wed Feb 16 2022 Javier Rodriguez <javiercrg@redborder.com>
 - Added rb-nmsp cookbook
-* Mon Jan 17 2022 Vicente Mesa <vimesa@redborder.com> - 0.12-1
+
+* Mon Jan 17 2022 Vicente Mesa <vimesa@redborder.com>
 - Added rb-nmsp cookbook
-* Tue Dec 28 2021 Eduardo Reyes <eareyes@redborder.com> - 0.12-1
+
+* Tue Dec 28 2021 Eduardo Reyes <eareyes@redborder.com>
 - Added rb-ale cookbook
-* Fri Dec 17 2021 Eduardo Reyes <eareyes@redborder.com> - 0.12-1
+
+* Fri Dec 17 2021 Eduardo Reyes <eareyes@redborder.com>
 - Added rb-nmsp cookbook
-* Mon Dec 13 2021 Javier Rodriguez <javiercrg@redborder.com> - 0.12-1
+
+* Mon Dec 13 2021 Javier Rodriguez <javiercrg@redborder.com>
 - Added rb-scanner & mongodb cookbooks
-* Thu Dec 2 2021 Vicente Mesa <vimesa@redborder.com> - 0.11-1
+
+* Thu Dec 2 2021 Vicente Mesa <vimesa@redborder.com>
 - Add rb-social cookbook
-* Fri Feb 9 2018 Juan J. Prieto <jjprieto@redborder.com> - 0.11-1
+
+* Fri Feb 9 2018 Juan J. Prieto <jjprieto@redborder.com>
 - Add pmacct cookbook
-* Wed Jan 31 2018 Alberto Rodriguez <arodriguez@redborder.com> - 0.10-1
+
+* Wed Jan 31 2018 Alberto Rodriguez <arodriguez@redborder.com>
 - Add minio cookbook
-* Mon Jan 29 2018 Juan J. Prieto <jjprieto@redborder.com> - 0.9-1
+
+* Mon Jan 29 2018 Juan J. Prieto <jjprieto@redborder.com>
 - Add logstash cookbook
-* Fri Jan 20 2017 Carlos J. Mateos <cjmateos@redborder.com> - 0.8-1
+
+* Fri Jan 20 2017 Carlos J. Mateos <cjmateos@redborder.com>
 - Added f2k cookbooks
-* Fri Jan 13 2017 Carlos J. Mateos <cjmateos@redborder.com> - 0.7-1
+
+* Fri Jan 13 2017 Carlos J. Mateos <cjmateos@redborder.com>
 - Added ntp cookbooks
-* Wed Dec 21 2016 Alberto Rodriguez <arodriguez@redborder.com> - 0.6-1
-- Added snmp and redborder-monitor cookbooks
-* Thu Dec 15 2016 Carlos J. Mateos <cjmateos@redborder.com> - 0.5-1
+
+* Wed Dec 21 2016 Alberto Rodriguez <arodriguez@redborder.com>
+- Added snmp and redborder-monitor cookbook
+
+* Thu Dec 15 2016 Carlos J. Mateos <cjmateos@redborder.com>
 - Added cookbooks webui
-* Fri Dec 02 2016 Carlos J. Mateos <cjmateos@redborder.com> - 0.4-1
+
+* Fri Dec 02 2016 Carlos J. Mateos <cjmateos@redborder.com>
 - Added cookbooks samza and geoip
-* Thu Nov 17 2016 Juan J. Prieto <jjprieto@redborder.com> - 0.3-1
+
+* Thu Nov 17 2016 Juan J. Prieto <jjprieto@redborder.com>
 - Added cookbooks nginx
-* Tue Oct 18 2016 Juan J. Prieto <jjprieto@redborder.com> - 0.2-1
+
+* Tue Oct 18 2016 Juan J. Prieto <jjprieto@redborder.com>
 - Added cookbooks required
-* Tue Oct 11 2016 Juan J. Prieto <jjprieto@redborder.com> - 0.1-1
+
+* Tue Oct 11 2016 Juan J. Prieto <jjprieto@redborder.com>
 - first spec version
