@@ -20,7 +20,7 @@ Requires: cookbook-rb-nmsp cookbook-n2klocd cookbook-rb-ale
 Requires: cookbook-freeradius
 Requires: cookbook-rb-proxy
 Requires: cookbook-k2http
-Requires: cookbook-rb-ips cookbook-snort cookbook-barnyard2
+Requires: cookbook-rb-ips cookbook-rb-intrusion cookbook-snort3 cookbook-snort cookbook-barnyard2
 #Requires: cookbook-ohai
 Requires: cookbook-cron
 Requires: cookbook-rb-aioutliers
