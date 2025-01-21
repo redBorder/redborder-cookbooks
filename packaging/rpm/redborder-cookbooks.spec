@@ -37,6 +37,7 @@ Requires: cookbook-rb-chrony
 Requires: cookbook-mem2incident
 Requires: cookbook-rb-ai
 Requires: cookbook-rb-firewall
+Requires: cookbook-rb-secor
 
 %description
 %{summary}
