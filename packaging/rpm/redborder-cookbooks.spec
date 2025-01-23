@@ -67,6 +67,9 @@ esac
 %doc README.md
 
 %changelog
+* Thu Jan 23 2025 Miguel Álvarez <malvads@redborder.com>
+- Add secor
+
 * Tue Nov 26 2024 Nils Verschaeve <nverschaeve@redborder.com>
 - Add firewall
 
