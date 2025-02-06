@@ -36,6 +36,8 @@ Requires: cookbook-rb-clamav
 Requires: cookbook-rb-chrony
 Requires: cookbook-mem2incident
 Requires: cookbook-rb-ai
+Requires: cookbook-rb-firewall
+Requires: cookbook-rb-secor
 
 %description
 %{summary}
@@ -65,6 +67,12 @@ esac
 %doc README.md
 
 %changelog
+* Thu Jan 23 2025 Miguel Álvarez <malvads@redborder.com>
+- Add secor
+
+* Tue Nov 26 2024 Nils Verschaeve <nverschaeve@redborder.com>
+- Add firewall
+
 * Fri Oct 11 2024 Miguel Negrón <manegron@redborder.com>
 - Remove hadoop and samza
 
