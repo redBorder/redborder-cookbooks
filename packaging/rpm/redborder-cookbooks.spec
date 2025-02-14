@@ -35,7 +35,7 @@ Requires: cookbook-keepalived
 Requires: cookbook-rb-clamav
 Requires: cookbook-rb-chrony
 Requires: cookbook-mem2incident
-Requires: cookbook-rb-ai
+Requires: cookbook-rb-llm
 Requires: cookbook-rb-firewall
 Requires: cookbook-rb-secor
 
