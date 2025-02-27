@@ -38,6 +38,7 @@ Requires: cookbook-mem2incident
 Requires: cookbook-rb-llm
 Requires: cookbook-rb-firewall
 Requires: cookbook-rb-secor
+Requires: cookbook-druid-indexer
 
 %description
 %{summary}
