@@ -39,6 +39,7 @@ Requires: cookbook-rb-llm
 Requires: cookbook-rb-firewall
 Requires: cookbook-rb-secor
 Requires: cookbook-druid-indexer
+Requires: cookbook-redis
 
 %description
 %{summary}
@@ -68,6 +69,9 @@ esac
 %doc README.md
 
 %changelog
+* Tue Jul 15 2025 Rafael Gómez <rgomez@redborder.com>
+- Add cookbook-redis
+
 * Thu Jan 23 2025 Miguel Álvarez <malvads@redborder.com>
 - Add secor
 
