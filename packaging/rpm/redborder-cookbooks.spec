@@ -40,6 +40,8 @@ Requires: cookbook-rb-firewall
 Requires: cookbook-rb-secor
 Requires: cookbook-druid-indexer
 
+Obsoletes: cookbook-mongodb
+
 %description
 %{summary}
 
@@ -68,6 +70,9 @@ esac
 %doc README.md
 
 %changelog
+* Thu Jul 24 2025 Luis Blanco <ljblanco@redborder.com> - 2.5.0
+- Remove deprecated cookbook mongo on update
+
 * Thu Jan 23 2025 Miguel Álvarez <malvads@redborder.com>
 - Add secor
 
