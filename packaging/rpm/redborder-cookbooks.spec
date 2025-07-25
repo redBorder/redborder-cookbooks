@@ -22,7 +22,7 @@ Requires: cookbook-rb-proxy
 Requires: cookbook-k2http
 Requires: cookbook-rb-ips cookbook-rb-intrusion cookbook-snort3 cookbook-snort cookbook-barnyard2
 #Requires: cookbook-ohai
-Requires: cookbook-cron
+#Requires: cookbook-cron
 Requires: cookbook-rb-aioutliers
 Requires: cookbook-rb-selinux
 Requires: cookbook-rb-cgroup
@@ -41,6 +41,7 @@ Requires: cookbook-rb-secor
 Requires: cookbook-druid-indexer
 
 Obsoletes: cookbook-mongodb
+Obsoletes: cookbook-cron
 
 %description
 %{summary}
