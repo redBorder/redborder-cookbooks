@@ -39,6 +39,7 @@ Requires: cookbook-rb-llm
 Requires: cookbook-rb-firewall
 Requires: cookbook-rb-secor
 Requires: cookbook-druid-indexer
+Requires: cookbook-redis
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
@@ -71,6 +72,9 @@ esac
 %doc README.md
 
 %changelog
+* Tue Jul 15 2025 Rafael Gómez <rgomez@redborder.com>
+- Add cookbook-redis
+
 * Thu Jul 24 2025 Luis Blanco <ljblanco@redborder.com> - 2.5.0
 - Remove deprecated cookbook mongo on update
 
