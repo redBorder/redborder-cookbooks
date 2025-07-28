@@ -12,7 +12,7 @@ Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid c
 Requires: cookbook-memcached cookbook-chef-server cookbook-consul
 Requires: cookbook-nginx cookbook-geoip cookbook-webui cookbook-logstash
 Requires: cookbook-snmp cookbook-rb-monitor cookbook-f2k cookbook-postgresql
-Requires: cookbook-mongodb cookbook-rb-scanner
+Requires: cookbook-rb-scanner
 Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-rb-dswatcher cookbook-rb-events-counter
 Requires: cookbook-rsyslog cookbook-rb-cep
@@ -22,7 +22,7 @@ Requires: cookbook-rb-proxy
 Requires: cookbook-k2http
 Requires: cookbook-rb-ips cookbook-rb-intrusion cookbook-snort3 cookbook-snort cookbook-barnyard2
 #Requires: cookbook-ohai
-Requires: cookbook-cron
+#Requires: cookbook-cron
 Requires: cookbook-rb-aioutliers
 Requires: cookbook-rb-selinux
 Requires: cookbook-rb-cgroup
@@ -40,6 +40,9 @@ Requires: cookbook-rb-firewall
 Requires: cookbook-rb-secor
 Requires: cookbook-druid-indexer
 Requires: cookbook-redis
+
+Obsoletes: cookbook-mongodb
+Obsoletes: cookbook-cron
 
 %description
 %{summary}
@@ -71,6 +74,9 @@ esac
 %changelog
 * Tue Jul 15 2025 Rafael Gómez <rgomez@redborder.com>
 - Add cookbook-redis
+
+* Thu Jul 24 2025 Luis Blanco <ljblanco@redborder.com> - 2.5.0
+- Remove deprecated cookbook mongo on update
 
 * Thu Jan 23 2025 Miguel Álvarez <malvads@redborder.com>
 - Add secor
