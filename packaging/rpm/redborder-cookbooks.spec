@@ -40,6 +40,7 @@ Requires: cookbook-rb-firewall
 Requires: cookbook-rb-secor
 Requires: cookbook-druid-indexer
 Requires: cookbook-redis
+Requires: cookbook-rb-agents
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
@@ -72,6 +73,9 @@ esac
 %doc README.md
 
 %changelog
+* Tue Jul 31 2025 manegron <manegron@redborder.com>
+- Add cookbook-rb-agents
+
 * Tue Jul 15 2025 Rafael Gómez <rgomez@redborder.com>
 - Add cookbook-redis
 
