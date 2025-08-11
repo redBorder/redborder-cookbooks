@@ -35,7 +35,6 @@ Requires: cookbook-keepalived
 Requires: cookbook-rb-clamav
 Requires: cookbook-rb-chrony
 Requires: cookbook-mem2incident
-Requires: cookbook-rb-llm
 Requires: cookbook-rb-firewall
 Requires: cookbook-rb-secor
 Requires: cookbook-druid-indexer
@@ -73,6 +72,9 @@ esac
 %doc README.md
 
 %changelog
+* Mon Ago 11 2025 manegron <rgomez@redborder.com>
+- Remove cookbook-rb-llm
+
 * Tue Jul 31 2025 manegron <manegron@redborder.com>
 - Add cookbook-rb-agents
 
