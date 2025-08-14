@@ -14,6 +14,7 @@ Requires: cookbook-nginx cookbook-geoip cookbook-webui cookbook-logstash
 Requires: cookbook-snmp cookbook-rb-monitor cookbook-f2k cookbook-postgresql
 Requires: cookbook-rb-scanner
 Requires: cookbook-minio cookbook-pmacct
+Requires: cookbook-yara
 Requires: cookbook-rb-dswatcher cookbook-rb-events-counter
 Requires: cookbook-rsyslog cookbook-rb-cep
 Requires: cookbook-rb-nmsp cookbook-n2klocd cookbook-rb-ale
@@ -73,6 +74,9 @@ esac
 %doc README.md
 
 %changelog
+* Thu Aug 14 2025 Pablo Torres <ptorres@redborder.com>
+- Add cookbook-yara
+
 * Tue Jul 31 2025 manegron <manegron@redborder.com>
 - Add cookbook-rb-agents
 
