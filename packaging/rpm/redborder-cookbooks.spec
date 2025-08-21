@@ -72,7 +72,7 @@ esac
 %doc README.md
 
 %changelog
-* Mon Ago 11 2025 manegron <rgomez@redborder.com>
+* Mon Ago 11 2025 Rafael Gómez <rgomez@redborder.com>
 - Remove cookbook-rb-llm
 
 * Tue Jul 31 2025 manegron <manegron@redborder.com>
