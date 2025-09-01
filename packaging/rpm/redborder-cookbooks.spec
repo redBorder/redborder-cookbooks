@@ -37,7 +37,6 @@ Requires: cookbook-keepalived
 Requires: cookbook-rb-clamav
 Requires: cookbook-rb-chrony
 Requires: cookbook-mem2incident
-Requires: cookbook-rb-llm
 Requires: cookbook-rb-firewall
 Requires: cookbook-rb-secor
 Requires: cookbook-druid-indexer
@@ -78,6 +77,8 @@ esac
 * Thu Aug 14 2025 Pablo Torres <ptorres@redborder.com>
 - Add cookbook-yara
 
+* Mon Ago 11 2025 Rafael Gómez <rgomez@redborder.com>
+- Remove cookbook-rb-llm
 
 * Thu Aug 07 2025 Daniel Castro <dcastro@redborder.com>
 - Add cookbook-aerospike
