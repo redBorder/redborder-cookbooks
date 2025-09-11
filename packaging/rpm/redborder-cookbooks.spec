@@ -42,6 +42,7 @@ Requires: cookbook-rb-secor
 Requires: cookbook-druid-indexer
 Requires: cookbook-redis
 Requires: cookbook-rb-agents
+Requires: cookbook-airflow
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
