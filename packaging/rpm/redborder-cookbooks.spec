@@ -42,6 +42,7 @@ Requires: cookbook-rb-secor
 Requires: cookbook-druid-indexer
 Requires: cookbook-redis
 Requires: cookbook-rb-agents
+Requires: cookbook-rb-reputation
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
@@ -74,6 +75,9 @@ esac
 %doc README.md
 
 %changelog
+* Thu Sep 18 2025 manegron <manegron@redborder.com>
+- Add cookbook-rb-reputation
+
 * Thu Aug 14 2025 Pablo Torres <ptorres@redborder.com>
 - Add cookbook-yara
 
@@ -89,7 +93,7 @@ esac
 * Tue Jul 15 2025 Rafael Gómez <rgomez@redborder.com>
 - Add cookbook-redis
 
-* Thu Jul 24 2025 Luis Blanco <ljblanco@redborder.com> - 2.5.0
+* Thu Jul 24 2025 Luis Blanco <ljblanco@redborder.com>
 - Remove deprecated cookbook mongo on update
 
 * Thu Jan 23 2025 Miguel Álvarez <malvads@redborder.com>
