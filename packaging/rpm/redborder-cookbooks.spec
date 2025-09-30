@@ -16,6 +16,7 @@ Requires: cookbook-rb-scanner
 Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-yara
 Requires: cookbook-cape
+Requires: cookbook-aerospike
 Requires: cookbook-rb-dswatcher cookbook-rb-events-counter
 Requires: cookbook-rsyslog cookbook-rb-cep
 Requires: cookbook-rb-nmsp cookbook-n2klocd cookbook-rb-ale
@@ -37,12 +38,12 @@ Requires: cookbook-keepalived
 Requires: cookbook-rb-clamav
 Requires: cookbook-rb-chrony
 Requires: cookbook-mem2incident
-Requires: cookbook-rb-llm
 Requires: cookbook-rb-firewall
 Requires: cookbook-rb-secor
 Requires: cookbook-druid-indexer
 Requires: cookbook-redis
 Requires: cookbook-rb-agents
+Requires: cookbook-rb-reputation
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
@@ -75,8 +76,17 @@ esac
 %doc README.md
 
 %changelog
+* Thu Sep 18 2025 manegron <manegron@redborder.com>
+- Add cookbook-rb-reputation
+
 * Thu Aug 14 2025 Pablo Torres <ptorres@redborder.com>
 - Add cookbook-yara
+
+* Mon Ago 11 2025 Rafael Gómez <rgomez@redborder.com>
+- Remove cookbook-rb-llm
+
+* Thu Aug 07 2025 Daniel Castro <dcastro@redborder.com>
+- Add cookbook-aerospike
 
 * Tue Jul 31 2025 manegron <manegron@redborder.com>
 - Add cookbook-rb-agents
@@ -84,7 +94,7 @@ esac
 * Tue Jul 15 2025 Rafael Gómez <rgomez@redborder.com>
 - Add cookbook-redis
 
-* Thu Jul 24 2025 Luis Blanco <ljblanco@redborder.com> - 2.5.0
+* Thu Jul 24 2025 Luis Blanco <ljblanco@redborder.com>
 - Remove deprecated cookbook mongo on update
 
 * Thu Jan 23 2025 Miguel Álvarez <malvads@redborder.com>
