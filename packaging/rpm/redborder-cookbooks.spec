@@ -16,6 +16,7 @@ Requires: cookbook-rb-scanner
 Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-yara
 Requires: cookbook-aerospike
+Requires: cookbook-drill
 Requires: cookbook-rb-dswatcher cookbook-rb-events-counter
 Requires: cookbook-rsyslog cookbook-rb-cep
 Requires: cookbook-rb-nmsp cookbook-n2klocd cookbook-rb-ale
@@ -76,6 +77,10 @@ esac
 %doc README.md
 
 %changelog
+
+* Mon Oct 13 2025 Juan Soto <jsoto@redborder.com>
+- Add cookbook-drill
+
 * Thu Sep 18 2025 manegron <manegron@redborder.com>
 - Add cookbook-rb-reputation
 
