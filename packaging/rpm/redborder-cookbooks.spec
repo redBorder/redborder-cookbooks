@@ -45,6 +45,7 @@ Requires: cookbook-redis
 Requires: cookbook-rb-agents
 Requires: cookbook-rb-reputation
 Requires: cookbook-airflow
+Requires: cookbook-rb-mailgateway
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
