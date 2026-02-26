@@ -78,6 +78,8 @@ esac
 %doc README.md
 
 %changelog
+* Thu Feb 26 2026 Vicente Mesa <vimesa@redborder.com>
+- Add cookbook-rb-mailgateway
 
 * Mon Oct 13 2025 Juan Soto <jsoto@redborder.com>
 - Add cookbook-drill
