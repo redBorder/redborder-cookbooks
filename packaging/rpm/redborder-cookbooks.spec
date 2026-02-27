@@ -17,6 +17,7 @@ Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-yara
 Requires: cookbook-cape
 Requires: cookbook-aerospike
+Requires: cookbook-drill
 Requires: cookbook-rb-dswatcher cookbook-rb-events-counter
 Requires: cookbook-rsyslog cookbook-rb-cep
 Requires: cookbook-rb-nmsp cookbook-n2klocd cookbook-rb-ale
@@ -44,6 +45,8 @@ Requires: cookbook-druid-indexer
 Requires: cookbook-redis
 Requires: cookbook-rb-agents
 Requires: cookbook-rb-reputation
+Requires: cookbook-airflow
+Requires: cookbook-rb-mailgateway
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
@@ -76,6 +79,12 @@ esac
 %doc README.md
 
 %changelog
+* Thu Feb 26 2026 Vicente Mesa <vimesa@redborder.com>
+- Add cookbook-rb-mailgateway
+
+* Mon Oct 13 2025 Juan Soto <jsoto@redborder.com>
+- Add cookbook-drill
+
 * Thu Sep 18 2025 manegron <manegron@redborder.com>
 - Add cookbook-rb-reputation
 
