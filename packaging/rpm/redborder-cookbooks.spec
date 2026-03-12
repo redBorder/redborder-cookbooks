@@ -85,6 +85,9 @@ esac
 * Mon Oct 13 2025 Juan Soto <jsoto@redborder.com>
 - Add cookbook-drill
 
+* Fri Sep 26 2025 Pablo Torres <ptorres@redborder.com>
+- Add cookbook-cape
+
 * Thu Sep 18 2025 manegron <manegron@redborder.com>
 - Add cookbook-rb-reputation
 
