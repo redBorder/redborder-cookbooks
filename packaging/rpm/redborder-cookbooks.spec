@@ -15,6 +15,7 @@ Requires: cookbook-snmp cookbook-rb-monitor cookbook-f2k cookbook-postgresql
 Requires: cookbook-rb-scanner
 Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-yara
+Requires: cookbook-cape
 Requires: cookbook-aerospike
 Requires: cookbook-drill
 Requires: cookbook-rb-dswatcher cookbook-rb-events-counter
@@ -83,6 +84,9 @@ esac
 
 * Mon Oct 13 2025 Juan Soto <jsoto@redborder.com>
 - Add cookbook-drill
+
+* Fri Sep 26 2025 Pablo Torres <ptorres@redborder.com>
+- Add cookbook-cape
 
 * Thu Sep 18 2025 manegron <manegron@redborder.com>
 - Add cookbook-rb-reputation
