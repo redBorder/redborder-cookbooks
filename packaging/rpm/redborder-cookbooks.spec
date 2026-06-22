@@ -47,6 +47,7 @@ Requires: cookbook-rb-agents
 Requires: cookbook-rb-reputation
 Requires: cookbook-airflow
 Requires: cookbook-rb-mailgateway
+Requires: cookbook-rb-net-tools
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
@@ -79,6 +80,9 @@ esac
 %doc README.md
 
 %changelog
+* Wed Jun 17 2026 Miguel Negrón <manegron@redborder.com>
+- Add cookbook-net-tools
+
 * Thu Feb 26 2026 Vicente Mesa <vimesa@redborder.com>
 - Add cookbook-rb-mailgateway
 
