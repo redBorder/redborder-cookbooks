@@ -49,6 +49,7 @@ Requires: cookbook-airflow
 Requires: cookbook-rb-mailgateway
 Requires: cookbook-rb-net-tools
 Requires: cookbook-rb-alarm-engine
+Requires: cookbook-grr
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
