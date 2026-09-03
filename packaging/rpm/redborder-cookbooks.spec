@@ -18,7 +18,7 @@ Requires: cookbook-yara
 Requires: cookbook-cape
 Requires: cookbook-aerospike
 Requires: cookbook-drill
-Requires: cookbook-rb-dswatcher cookbook-rb-events-counter
+# Requires: cookbook-rb-dswatcher cookbook-rb-events-counter
 Requires: cookbook-rsyslog cookbook-rb-cep
 Requires: cookbook-rb-nmsp cookbook-n2klocd cookbook-rb-ale
 Requires: cookbook-freeradius
@@ -49,9 +49,12 @@ Requires: cookbook-airflow
 Requires: cookbook-rb-mailgateway
 Requires: cookbook-rb-net-tools
 Requires: cookbook-rb-alarm-engine
+Requires: cookbook-rb-license
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
+Obsoletes: cookbook-rb-dswatcher
+Obsoletes: cookbook-rb-events-counter
 
 %description
 %{summary}
