@@ -50,6 +50,7 @@ Requires: cookbook-rb-mailgateway
 Requires: cookbook-rb-net-tools
 Requires: cookbook-rb-hub-satellite
 Requires: cookbook-rb-alarm-engine
+Requires: cookbook-rb-backup-transfer
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
@@ -87,6 +88,9 @@ esac
 
 * Thu Feb 26 2026 Vicente Mesa <vimesa@redborder.com>
 - Add cookbook-rb-mailgateway
+
+* Wed Aug 26 2026 Juan Soto <jsoto@redborder.com>
+- Add cookbook-rb-backup-transfer
 
 * Mon Oct 13 2025 Juan Soto <jsoto@redborder.com>
 - Add cookbook-drill
