@@ -48,7 +48,9 @@ Requires: cookbook-rb-reputation
 Requires: cookbook-airflow
 Requires: cookbook-rb-mailgateway
 Requires: cookbook-rb-net-tools
+Requires: cookbook-rb-hub-satellite
 Requires: cookbook-rb-alarm-engine
+Requires: cookbook-grr
 Requires: cookbook-rb-license
 
 Obsoletes: cookbook-mongodb
