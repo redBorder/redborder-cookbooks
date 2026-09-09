@@ -18,7 +18,6 @@ Requires: cookbook-yara
 Requires: cookbook-cape
 Requires: cookbook-aerospike
 Requires: cookbook-drill
-Requires: cookbook-rb-dswatcher cookbook-rb-events-counter
 Requires: cookbook-rsyslog cookbook-rb-cep
 Requires: cookbook-rb-nmsp cookbook-n2klocd cookbook-rb-ale
 Requires: cookbook-freeradius
@@ -51,6 +50,7 @@ Requires: cookbook-rb-net-tools
 Requires: cookbook-rb-hub-satellite
 Requires: cookbook-rb-alarm-engine
 Requires: cookbook-grr
+Requires: cookbook-rb-license
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
@@ -83,6 +83,9 @@ esac
 %doc README.md
 
 %changelog
+* Wed Sep 09 2026 Vicente Mesa <vimesa@redborder.com>
+- Add cookbook-rb-license
+
 * Wed Jun 17 2026 Miguel Negrón <manegron@redborder.com>
 - Add cookbook-net-tools
 
