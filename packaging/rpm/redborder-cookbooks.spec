@@ -50,7 +50,7 @@ Requires: cookbook-rb-mailgateway
 Requires: cookbook-rb-net-tools
 Requires: cookbook-rb-hub-satellite
 Requires: cookbook-rb-alarm-engine
-Requires: cookbook-rb-backup-transfer
+Requires: cookbook-vsftpd
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
