@@ -11,7 +11,7 @@ Source0: %{name}-%{version}.tar.gz
 Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid cookbook-http2k
 Requires: cookbook-memcached cookbook-chef-server cookbook-consul
 Requires: cookbook-nginx cookbook-geoip cookbook-webui cookbook-logstash
-Requires: cookbook-snmp cookbook-rb-monitor cookbook-f2k cookbook-postgresql
+Requires: cookbook-snmp cookbook-rb-monitor cookbook-postgresql
 Requires: cookbook-rb-scanner
 Requires: cookbook-minio cookbook-pmacct
 Requires: cookbook-yara
@@ -52,6 +52,8 @@ Requires: cookbook-rb-alarm-engine
 Requires: cookbook-vsftpd
 Requires: cookbook-grr
 Requires: cookbook-rb-license
+Requires: cookbook-netflow2kafka
+Requires: cookbook-sflow2kafka
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
@@ -84,6 +86,9 @@ esac
 %doc README.md
 
 %changelog
+* Tue Nov 17 2026 Miguel Negrón <manegron@redborder.com>
+- Remove cookbook-f2k and add cookbook-netflow2kafka and cookbook-sflow2kafka
+
 * Fri Oct 09 2026 Nils Verschaeve <nverschaeve@redborder.com>
 - Replace cookbook-rb-exporter with cookbook-rb-flow-agent
 
