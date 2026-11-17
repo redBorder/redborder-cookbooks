@@ -31,7 +31,7 @@ Requires: cookbook-rb-selinux
 Requires: cookbook-rb-cgroup
 Requires: cookbook-rb-logstatter
 Requires: cookbook-rb-arubacentral
-Requires: cookbook-rb-exporter
+Requires: cookbook-rb-flow-agent
 Requires: cookbook-rb-postfix
 Requires: cookbook-rb-common
 Requires: cookbook-keepalived
@@ -84,6 +84,9 @@ esac
 %doc README.md
 
 %changelog
+* Fri Oct 09 2026 Nils Verschaeve <nverschaeve@redborder.com>
+- Replace cookbook-rb-exporter with cookbook-rb-flow-agent
+
 * Wed Sep 09 2026 Vicente Mesa <vimesa@redborder.com>
 - Add cookbook-rb-license
 
