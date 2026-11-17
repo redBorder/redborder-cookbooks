@@ -13,7 +13,7 @@ Requires: cookbook-memcached cookbook-chef-server cookbook-consul
 Requires: cookbook-nginx cookbook-geoip cookbook-webui cookbook-logstash
 Requires: cookbook-snmp cookbook-rb-monitor cookbook-postgresql
 Requires: cookbook-rb-scanner
-Requires: cookbook-minio cookbook-pmacct
+Requires: cookbook-minio
 Requires: cookbook-yara
 Requires: cookbook-cape
 Requires: cookbook-aerospike
@@ -87,7 +87,7 @@ esac
 
 %changelog
 * Tue Nov 17 2026 Miguel Negrón <manegron@redborder.com>
-- Remove cookbook-f2k and add cookbook-netflow2kafka and cookbook-sflow2kafka
+- Remove cookbook-f2k and cookbook-pmacct and add cookbook-netflow2kafka and cookbook-sflow2kafka
 
 * Fri Oct 09 2026 Nils Verschaeve <nverschaeve@redborder.com>
 - Replace cookbook-rb-exporter with cookbook-rb-flow-agent
