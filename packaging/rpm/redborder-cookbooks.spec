@@ -52,8 +52,8 @@ Requires: cookbook-rb-alarm-engine
 Requires: cookbook-vsftpd
 Requires: cookbook-grr
 Requires: cookbook-rb-license
-Requires: cookbook-netflow2kafka
-Requires: cookbook-sflow2kafka
+Requires: cookbook-rb-netflow2kafka
+Requires: cookbook-rb-sflow2kafka
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
@@ -86,6 +86,9 @@ esac
 %doc README.md
 
 %changelog
+* Wed Nov 18 2026 manegron <manegron@redborder.com>
+- Rename cookbook-netflow2kafka and cookbook-sflow2kafka to cookbook-rb-netflow2kafka and cookbook-rb-sflow2kafka
+
 * Tue Nov 17 2026 Miguel Negrón <manegron@redborder.com>
 - Remove cookbook-f2k and cookbook-pmacct and add cookbook-netflow2kafka and cookbook-sflow2kafka
 
