@@ -12,9 +12,9 @@ Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid c
 Requires: cookbook-openbao
 Requires: cookbook-memcached cookbook-chef-server cookbook-consul
 Requires: cookbook-nginx cookbook-geoip cookbook-webui cookbook-logstash
-Requires: cookbook-snmp cookbook-rb-monitor cookbook-f2k cookbook-postgresql
+Requires: cookbook-snmp cookbook-rb-monitor cookbook-postgresql
 Requires: cookbook-rb-scanner
-Requires: cookbook-minio cookbook-pmacct
+Requires: cookbook-minio
 Requires: cookbook-yara
 Requires: cookbook-cape
 Requires: cookbook-aerospike
@@ -53,6 +53,8 @@ Requires: cookbook-rb-alarm-engine
 Requires: cookbook-vsftpd
 Requires: cookbook-grr
 Requires: cookbook-rb-license
+Requires: cookbook-rb-netflow2kafka
+Requires: cookbook-rb-sflow2kafka
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
@@ -85,6 +87,12 @@ esac
 %doc README.md
 
 %changelog
+* Wed Nov 18 2026 manegron <manegron@redborder.com>
+- Rename cookbook-netflow2kafka and cookbook-sflow2kafka to cookbook-rb-netflow2kafka and cookbook-rb-sflow2kafka
+
+* Tue Nov 17 2026 Miguel Negrón <manegron@redborder.com>
+- Remove cookbook-f2k and cookbook-pmacct and add cookbook-netflow2kafka and cookbook-sflow2kafka
+
 * Fri Oct 09 2026 Nils Verschaeve <nverschaeve@redborder.com>
 - Replace cookbook-rb-exporter with cookbook-rb-flow-agent
 
