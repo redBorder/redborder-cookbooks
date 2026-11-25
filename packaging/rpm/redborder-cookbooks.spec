@@ -9,7 +9,7 @@ URL: https://github.com/redBorder/redborder-cookbooks
 Source0: %{name}-%{version}.tar.gz
 
 Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid cookbook-http2k
-Requires: cookbook-memcached cookbook-chef-server cookbook-consul
+Requires: cookbook-memcached cookbook-cinc-server cookbook-consul
 Requires: cookbook-nginx cookbook-geoip cookbook-webui cookbook-logstash
 Requires: cookbook-snmp cookbook-rb-monitor cookbook-postgresql
 Requires: cookbook-rb-scanner
@@ -57,6 +57,7 @@ Requires: cookbook-rb-sflow2kafka
 
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
+Obsoletes: cookbook-chef-server
 
 %description
 %{summary}
@@ -86,6 +87,9 @@ esac
 %doc README.md
 
 %changelog
+* Wed Nov 25 2026 Miguel Negrón <manegron@redborder.com>
+- Replace cookbook-chef-server with cookbook-cinc-server
+
 * Wed Nov 18 2026 manegron <manegron@redborder.com>
 - Rename cookbook-netflow2kafka and cookbook-sflow2kafka to cookbook-rb-netflow2kafka and cookbook-rb-sflow2kafka
 
