@@ -13,7 +13,7 @@ Requires: cookbook-memcached cookbook-cinc-server cookbook-consul
 Requires: cookbook-nginx cookbook-geoip cookbook-webui cookbook-logstash
 Requires: cookbook-snmp cookbook-rb-monitor cookbook-postgresql
 Requires: cookbook-rb-scanner
-Requires: cookbook-minio
+Requires: cookbook-seaweedfs
 Requires: cookbook-yara
 Requires: cookbook-cape
 Requires: cookbook-aerospike
@@ -58,6 +58,7 @@ Requires: cookbook-rb-sflow2kafka
 Obsoletes: cookbook-mongodb
 Obsoletes: cookbook-cron
 Obsoletes: cookbook-chef-server
+Obsoletes: cookbook-minio
 
 %description
 %{summary}
@@ -87,6 +88,9 @@ esac
 %doc README.md
 
 %changelog
+* Thu Nov 26 2026 Miguel Negrón <manegron@redborder.com>
+- Replace cookbook-minio with cookbook-seaweedfs
+
 * Wed Nov 25 2026 Miguel Negrón <manegron@redborder.com>
 - Replace cookbook-chef-server with cookbook-cinc-server
 
