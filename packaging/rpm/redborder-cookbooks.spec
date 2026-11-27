@@ -10,7 +10,7 @@ Source0: %{name}-%{version}.tar.gz
 
 Requires: cookbook-rb-manager cookbook-zookeeper cookbook-kafka cookbook-druid cookbook-http2k
 Requires: cookbook-memcached cookbook-cinc-server cookbook-consul
-Requires: cookbook-nginx cookbook-geoip cookbook-webui cookbook-logstash
+Requires: cookbook-nginx cookbook-geoip cookbook-webui cookbook-vortex
 Requires: cookbook-snmp cookbook-rb-monitor cookbook-postgresql
 Requires: cookbook-rb-scanner
 Requires: cookbook-minio
